@@ -15,6 +15,7 @@ import jakarta.annotation.PostConstruct;
 @Service
 public class PlayerService {
 
+	//creating a local list of players
 	private List<Player> players = new ArrayList<Player>();
 	
 	AtomicInteger id = new AtomicInteger(0);
